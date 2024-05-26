@@ -1,0 +1,33 @@
+working_directory  = "C:\\Users\\Narender"
+
+[env]
+TERM = "xterm-256color"
+
+[window]
+title = "Terminal"
+position = { x = 0, y = 0 }
+dimensions = { columns = 80, lines = 24 }
+padding.x = 10
+padding.y = 10
+decorations = "Buttonless"
+opacity = 0.8
+blur = true
+option_as_alt = "Both"
+
+[font]
+normal.family = "CaskaydiaMono Nerd Font"
+size = 17
+
+[scrolling]
+history = 100000
+multiplier = 3
+
+[cursor]
+style = { shape = "Beam", blinking = "On" }
+
+[selection]
+save_to_clipboard = true
+
+[shell]
+program = "C:\\Program Files\\PowerShell\\7\\pwsh.exe"
+args = ["-NoLogo"]
